@@ -14,7 +14,7 @@ namespace RavenIndexInvestigation2
     class Program
     {
         private const string RavenServerUrl = "http://localhost:8080";
-        const string DatabaseName = "foo8";
+        const string DatabaseName = "RavenIndexInvestigation2";
         static void Main()
         {
             var documentStore = new DocumentStore { Url = RavenServerUrl };
